@@ -1,0 +1,6 @@
+os 17.0.0
+sys 3.10.0
+json 2.0.9
+requests 2.28.1
+time 0.1.0
+random 0.1.0

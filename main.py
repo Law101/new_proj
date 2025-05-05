@@ -17,5 +17,13 @@ def get_proxy_list():
     proxy_list = response.text.strip().split('\n')
     return proxy_list
 
+def get_proxy_list_from_file():
+    with open('proxy_list.txt', 'r') as file:
+        proxy_list = file.read().strip().split('\n')
+    return proxy_list
+
+
+
+
 
 print(get_proxy())
